@@ -37,7 +37,7 @@ body {
 .main-container {
     width: calc(100% - 48px);
     max-width: 315px;
-    margin: 0 auto;
+    margin: 36px auto;
     display: flex;
     flex-direction: column;
     gap: 160px;
