@@ -37,10 +37,10 @@ body {
 .main-container {
     width: calc(100% - 48px);
     max-width: 315px;
-    margin: 32px auto;
+    margin: 34px auto;
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 30px;
 }
 
 .card-container {
@@ -57,6 +57,7 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 40px;
 }
 
