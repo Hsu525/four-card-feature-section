@@ -127,16 +127,13 @@ body {
 
 /* Media Queries */
 @media (min-width: 768px) {
-    .header-description {
-        max-width: 500px;
-    }
-    
     .main-heading {
         font-size: 2.25rem; /* 36px */
-        line-height: 1.3;
+        line-height: 1.2;
     }
 
     .header-description {
+        max-width: 500px;
         font-size: 0.9375rem; /* 15px */
         line-height: 1.6;
     }
@@ -151,11 +148,11 @@ body {
     }
 
     .main-container {
-        width: 985px;
+        width: 995px;
         max-width: none;
         display: flex;
         flex-direction: column;
-        gap: 50px;
+        gap: 45px;
     }
 
     .intro {
