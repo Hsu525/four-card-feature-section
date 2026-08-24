@@ -37,7 +37,7 @@ body {
 .main-container {
     width: calc(100% - 48px);
     max-width: 315px;
-    margin: 34px auto;
+    margin: 32px auto;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -54,7 +54,7 @@ body {
     width: 100%;
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    padding: 30px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -150,7 +150,7 @@ body {
 
     .card p {
         font-size: 0.8125rem; /* 13px */
-        line-height: 1.6;
+        line-height: 1.4;
     }
 
     .main-container {
