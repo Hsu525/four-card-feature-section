@@ -87,7 +87,7 @@ body {
 }
 
 .header-description {
-    color: var(--grey-400);
+    color: var(--grey-500);
     font-size: 0.9375rem;
     font-weight: 400;
     max-width: 320px;
