@@ -37,7 +37,7 @@ body {
 .main-container {
     width: calc(100% - 48px);
     max-width: 315px;
-    margin: 0 auto;
+    margin: 30px auto;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -55,6 +55,12 @@ body {
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.card-description {
     display: flex;
     flex-direction: column;
     gap: 10px;
