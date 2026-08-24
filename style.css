@@ -40,12 +40,11 @@ body {
     margin: 32px auto;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 32px;
 }
 
 .card-container {
     width: 100%;
-    margin-top: 5px;
     display: flex;
     flex-direction: column;
     gap: 20px;
