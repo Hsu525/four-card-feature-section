@@ -134,7 +134,7 @@ body {
 /* Media Queries */
 @media (min-width: 768px) {
     .main-heading {
-        font-size: 2.1rem; /* 36px */
+        font-size: 2rem; /* 36px */
         line-height: 1.2;
     }
 
@@ -145,7 +145,7 @@ body {
     }
 
     .card h2 {
-        font-size: 1.2rem; /* 20px */
+        font-size: 1.1rem; /* 20px */
     }
 
     .card p {
