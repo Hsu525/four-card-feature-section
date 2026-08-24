@@ -30,14 +30,14 @@ body {
 .content {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex: 1;
 }
 
 .main-container {
     width: calc(100% - 48px);
     max-width: 315px;
-    margin: 50px auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 30px;
