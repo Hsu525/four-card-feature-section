@@ -40,7 +40,7 @@ body {
     margin: 36px auto;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
 }
 
 .card-container {
