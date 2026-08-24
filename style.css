@@ -1,0 +1,193 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+}
+
+:root {
+  /* Primary colors */
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+
+  /* Neutral colors */
+  --grey-500: hsl(234, 12%, 34%);
+  --grey-400: hsl(212, 6%, 44%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Main Layout */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.main-container {
+    width: calc(100% - 48px);
+    max-width: 315px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Component styles */
+.intro {
+    text-align: center;
+}
+
+.main-heading {
+    color: var(--grey-500);
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.main-heading span {
+    display: block;
+    font-weight: 200;
+}
+
+.main-heading strong {
+    display: block;
+    font-weight: 600;
+}
+
+.header-description {
+    color: var(--grey-400);
+    font-size: 0.9375rem;
+    font-weight: 400;
+    max-width: 320px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.card h2 {
+    color: var(--grey-500);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.card p {
+    color: var(--grey-400);
+    font-size: 0.8125rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.supervisor {
+    border-top: 4px solid var(--cyan);
+}
+
+.team-builder {
+    border-top: 4px solid var(--red);
+}
+
+.karma {
+    border-top: 4px solid var(--orange);
+}
+
+.calculator {
+    border-top: 4px solid var(--blue);
+}
+
+/* States */
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .header-description {
+        max-width: 500px;
+    }
+    .main-container {
+        width: 985px;
+        max-width: none;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .intro {
+        width: 500px;
+        align-self: center;
+    }
+
+    .card-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 315px);
+        grid-template-areas:
+            "supervisor team-builder calculator"
+            "supervisor karma calculator";
+        gap: 20px;
+    }
+
+    .supervisor {
+        grid-area: supervisor;
+        align-self: center;
+    }
+    .team-builder {
+        grid-area: team-builder;
+    }
+    .karma {
+        grid-area: karma;
+    }
+    .calculator {
+        grid-area: calculator;
+        align-self: center;
+    }
+}    
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attribution { 
+    font-size: 0.6875rem; 
+    text-align: center; 
+}
+
+.attribution a { 
+    text-decoration: none;
+    color: hsl(228, 45%, 44%); 
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
